@@ -34,6 +34,7 @@ To start using the Window AI Playground, follow these steps:
 ### Prerequisites
 
 - Chrome Dev Canary
+- Bun (a fast all-in-one JavaScript runtime)
 - Basic understanding of AI models and web development
 
 ### Installation
@@ -45,13 +46,25 @@ To start using the Window AI Playground, follow these steps:
    cd window-ai-playground
    ```
 
-2. **Enable required Chrome flags**:
+2. **Install dependencies**:
+
+   ```bash
+   bun install
+   ```
+
+3. **Enable required Chrome flags**:
 
    - Open Chrome Dev Canary and navigate to `chrome://flags`.
    - Search for `Prompt API for Gemini Nano` and enable it.
 
-3. **Run the project**:
-   - Open `index.html` in Chrome Dev Canary.
+4. **Run the project**:
+
+   ```bash
+   bun run dev
+   ```
+
+5. **Open the project**:
+   - Open `http://localhost:5173` in Chrome Dev Canary to see the demo.
 
 ## Contributing
 
